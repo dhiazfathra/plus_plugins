@@ -270,7 +270,7 @@ class DemoAppState extends State<DemoApp> {
         ),
       ],
       sharePositionOrigin: box!.localToGlobal(Offset.zero) & box.size,
-      fileNameOverrides: [fileName],
+      // fileNameOverrides: [fileName],
     );
 
     scaffoldMessenger.showSnackBar(getResultSnackBar(shareResult));
